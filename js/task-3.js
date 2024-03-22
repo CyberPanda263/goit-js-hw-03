@@ -6,8 +6,7 @@ function filterArray(numbers, value) {
         }
     }
     if(!(filterNumbers.length === 0)){
-    const filterNumbersTrue = filterNumbers.filter(element => element !== null);
-    return filterNumbersTrue;
+    return filterNumbers.filter(element => element !== null);
     }else{
         return filterNumbers;
     }
